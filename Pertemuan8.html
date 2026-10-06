@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html long="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>Praktikum JS - Interaktifitas Web</title>
+        <link rel="stylesheet" href="stylee.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Ekplorasi Javascript & Manipulasi DOM</h1>
+            <p>Laboratorium komputer D3 Manajemen Informatika</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2 id="teks-sambutan">Selamat datang di praktikum WEB!</h2>
+                <p id="teks-keterangan">Teks ini akan mengalami perubahan isi dan warna.</p>
+                <button id="btn-ubah">Ubah teks</button>
+                <button id="btn-reset">Kembalikan semula</button>
+            </section>
+
+            <section class="card">
+                <h2>Pratinjau masukan langsung. (Live priview)</h2>
+                <input type="text" id="input-nama" placeholder="Masukan nama mahasiswa..">
+                <p>Halo, <span id="output-nama" class="sorot">Praktikum</span>!</p>
+            </section>
+
+            <section class="card">
+                <h2>Pencacah interaktif (Interactive counter)</h2>
+                <div class="counter-display" id="angka-counter">0</div><br>
+                <button id="btn-kurang">- kurang</button>
+                <button id="btn-tambah">+ tambah</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Asisten dosen Pemrograman web unila</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
